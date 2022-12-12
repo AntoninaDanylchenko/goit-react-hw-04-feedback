@@ -1,5 +1,6 @@
 import React from 'react';
 import css from './Section.module.css';
+import PropTypes from 'prop-types';
 
 const Section = ({ title, children }) => (
   <div className={css.feedbackSection}>
@@ -7,5 +8,9 @@ const Section = ({ title, children }) => (
     {children}
   </div>
 );
+
+Section.prototype = {
+  title: PropTypes.string,
+};
 
 export default Section;
