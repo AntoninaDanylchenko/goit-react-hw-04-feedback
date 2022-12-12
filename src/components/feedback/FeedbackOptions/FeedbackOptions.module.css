@@ -11,7 +11,13 @@
 .feedbackBtn:not(:last-child) {
   margin-right: 15px;
 }
-
 .feedbackBtn:hover {
   background-color: rgba(188, 212, 230, 0.8);
+}
+
+.feedbackBtn:first-child:hover {
+  background-color: rgba(157, 232, 176, 0.8);
+}
+.feedbackBtn:last-child:hover {
+  background-color: rgba(222, 146, 129, 0.8);
 }
