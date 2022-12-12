@@ -1,0 +1,17 @@
+.feedbackBtn {
+  border: 1px solid rgb(188, 212, 230);
+  background-color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  width: 90px;
+  height: 30px;
+  border-radius: 10%;
+  font-size: 14px;
+}
+.feedbackBtn:not(:last-child) {
+  margin-right: 15px;
+}
+
+.feedbackBtn:hover {
+  background-color: rgba(188, 212, 230, 0.8);
+}

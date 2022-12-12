@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Statistics from './Statistics/Statistics';
 import Section from './Section/Section';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
+import css from './Feedback.module.css';
 
 class Feedback extends Component {
   state = {
@@ -43,7 +44,7 @@ class Feedback extends Component {
 
   render() {
     return (
-      <div className="Feedback">
+      <div className={css.feedback}>
         <Section title="Please leave feedback">
           <FeedbackOptions onLeaveFeedback={this.leaveFeedback} />
         </Section>

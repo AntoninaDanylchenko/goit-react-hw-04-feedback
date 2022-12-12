@@ -1,0 +1,6 @@
+.statisticItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+.statisticSpan {
+  font-weight: 500;
+}
