@@ -13,7 +13,6 @@ class Feedback extends Component {
 
   leaveFeedback = event => {
     const btn = event.target.name;
-    console.log(btn);
     this.setState(prevDef => ({
       [btn]: prevDef[btn] + 1,
     }));
